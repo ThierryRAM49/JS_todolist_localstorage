@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box
+}
+
+body {
+  background: rgb(231, 150, 44);
+  color: #2e39d3;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+#taskInput {
+  width: 100%;
+  padding: 10px;
+  margin: 10px auto;
+  border: 3px solid #234cd3;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+#addTaskBtn {
+  display: block;
+  width: 30%;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: #3e5d8d;
+  color: rgb(188, 194, 158);
+  text-emphasis: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#clearBtn {
+  display: block;
+  width: 30%;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: #e70707;
+  color: rgb(202, 221, 134);
+  text-emphasis: none;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#taskList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+#taskList li {
+  padding: 10px;
+  margin: 10px auto;
+  background-color: #8d813e;
+  color: rgb(202, 221, 134);
+  text-emphasis: none;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#taskCount {
+  display: block;
+  width: 30%;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: #8d813e;
+  color: rgb(202, 221, 134);
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+}
+
+/* Bonus: Style pour le texte de tâche */
+.task-text {
+  cursor: pointer;
+  flex: 1;
+}
+
+.task-text:hover {
+  text-decoration: underline;
+}
+
+/* Bonus: Style pour le champ d'édition */
+.edit-input {
+  flex: 1;
+  padding: 5px;
+  border: 2px solid #234cd3;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Bouton supprimer */
+.delete-btn {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 8px;
+}
+
+#taskList li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
