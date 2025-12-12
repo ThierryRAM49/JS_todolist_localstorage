@@ -1,0 +1,1 @@
+ Manipulation du DOM avec Javascript pour ajouter des tâches, les tâches restnent avec indicateur des restant même après rafraichissement du naviguateur ou fermeture et ouverture, supprimer chaque tâches, suppression de toutes les tâches et suppression sans trace
